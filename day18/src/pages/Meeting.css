@@ -1,0 +1,64 @@
+/* App.css (or your custom CSS file) */
+
+/* Style the form container */
+
+.meeting-container {
+  position: absolute;
+  height: 98vh;
+  width: 96%;
+  background: "../Assets/meeting.jpeg";
+}
+.meeting{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    /* background-color: #f7f7f7; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 56px;
+    left: 507px;
+  }
+  
+  /* Style form elements */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="datetime-local"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .sch-mt{
+    position: absolute;
+    right: 569px;
+  }
+  .ent-det{
+    position: relative;
+    left: 8%;
+  }
